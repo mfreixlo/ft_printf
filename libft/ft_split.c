@@ -58,11 +58,9 @@ static int	ft_slen(char const *str, int pos, char c)
 static int	ft_scpy(char const *s1, char *s2, int ind, int len)
 {
 	int	j;
-//	int	k;
 
 	if (!s1 || !s2)
 		return (0);
-//	k = 0;
 	j = 0;
 	while (j < len - 1)
 		s2[j++] = s1[ind++];

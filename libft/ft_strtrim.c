@@ -15,12 +15,10 @@
 static int	ft_cut(char const *s1, int k, int ascii[128])
 {
 	int	state;
-//	int	cut;
 
 	state = 1;
 	if (k == 0)
 		state = 0;
-//	cut = 0;
 	while (s1[k] && k >= 0)
 	{
 		if (ascii[(int)s1[k]] != 0)

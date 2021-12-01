@@ -4,9 +4,9 @@ NAME = libftprintf.a
 
 SRC_DIR = sources
 
-SRC = $(SRC_DIR)/ft_printf.c
+SRC = $(SRC_DIR)/ft_printf.c $(SRC_DIR)/ft_printf_utils.c
 
-SURPL_O = ft_printf.o
+SURPL_O = ft_printf.o ft_printf_utils.o
 
 OBJS = ${SRC:.c=.o}
 
